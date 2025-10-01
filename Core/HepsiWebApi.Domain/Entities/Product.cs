@@ -14,8 +14,8 @@ namespace HepsiWebApi.Domain.Entities
         public required int BrandId { get; set; }
         public required decimal Price { get; set; }
         public required decimal Discount { get; set; }
-        public Brand Brand { get; set; }
-        public ICollection<Category> Categories { get; set; }
+        public Brand Brand { get; set; }  // ürün markası
+        public ICollection<Category> Categories { get; set; }  // bir ürünün birden fazla kategorisi olabilir
         //public required string ImagePath { get; set; }
 
     }
