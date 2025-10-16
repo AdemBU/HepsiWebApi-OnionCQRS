@@ -1,4 +1,4 @@
-﻿using HepsiWebApi.Application.Interfaces;
+﻿using HepsiWebApi.Application.Interfaces.Repositories;
 using HepsiWebApi.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using System;

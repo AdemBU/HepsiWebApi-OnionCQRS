@@ -20,9 +20,9 @@ namespace HepsiWebApi.Domain.Entities
             Name = name;
             Priorty = priorty;
         }
-        public required int ParentId { get; set; }  //kategoriler arası alt ve üst kategorileri oluşturmak için
-        public required string Name { get; set; }
-        public required int Priorty { get; set; }  // sıralama değeri
+        public int ParentId { get; set; }  //kategoriler arası alt ve üst kategorileri oluşturmak için
+        public string Name { get; set; }
+        public int Priorty { get; set; }  // sıralama değeri
         public ICollection<Detail> Details { get; set; }  // bir kategorinin birden çok detayı olabilir
         public ICollection<Product> Products { get; set; } // bir kategoride birden çok product olabilir
     }

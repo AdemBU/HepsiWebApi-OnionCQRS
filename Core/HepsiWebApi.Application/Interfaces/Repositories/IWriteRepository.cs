@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HepsiWebApi.Application.Interfaces
+namespace HepsiWebApi.Application.Interfaces.Repositories
 {
     public interface IWriteRepository<T> where T : class, IEntityBase, new()
     {
