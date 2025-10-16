@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\HepsiWebApi.Application\HepsiWebApi.Application.csproj" />
     <ProjectReference Include="..\..\Core\HepsiWebApi.Domain\HepsiWebApi.Domain.csproj" />
   </ItemGroup>
 
